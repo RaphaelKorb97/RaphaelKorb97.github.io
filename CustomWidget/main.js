@@ -5,7 +5,7 @@ var ajaxCall = (key, url, prompt) => {
       type: "POST",
       dataType: "json",
       data: JSON.stringify({
-        model: "joe-sackic",
+        model: "text-davinci-003",
         prompt: prompt,
         max_tokens: 1024,
         n: 1,
