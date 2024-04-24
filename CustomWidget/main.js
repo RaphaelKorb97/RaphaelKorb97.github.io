@@ -5,7 +5,7 @@ var ajaxCall = (key, url, prompt) => {
       type: "POST",
       dataType: "json",
       data: JSON.stringify({
-        model: "gpt-3.5-turbo-instruct",
+        model: "gpt-3.5-turbo-0125",
         prompt: prompt,
         max_tokens: 1024,
         n: 1,
